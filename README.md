@@ -1,4 +1,8 @@
-# RingSketch
+# RingSketch: Real-time Measuring Item Freshness in Data Streams
+
+This repository contains all related code of our paper "RingSketch: Real-time Measuring Item Freshness in Data Streams".
+
+Our codes can automatically reproduce all experimental results in our paper.
 
 ## Overview
 
@@ -42,7 +46,7 @@ We implement and test RingSketch on a CPU platform (Intel i9-10980XE, 18-core 4.
     - `periodic batch`: Comparative experiments between RingSketch and Periodic Sketch in terms of periodic element detection performance
 - `math`: Theoretical analysis and practical performance comparison of RingSketch on Zipf distribution
 - `flink`: Implementation of RingSketch on the Flink platform
-- `dataset`: Contains the cropped results of the CAIDA, Criteo, and Zipf_1.0 datasets we used
+- `dataset`: Contains the cropped results of the CAIDA, Criteo, Zipf_1.0 and Zipf_1.5 datasets we used
 
 ## Datasets
 
@@ -61,7 +65,7 @@ We use a dataset containing about 48M items derived from 2.4M distinct ones.
 We use Web Polygraph to generate datasets according to Zipf distribution. We generate multiple Zipf datasets with different $\alpha$, which reflects the degree of skewness of the distribution. 
 Each dataset consists of 32M items.
 
-All these datasets are provided in the `dataset` folder in cropped versions to run our code properly.
+We provide four small sample datasets extracted from the three datasets in the `dataset` folder to run our code properly. For the full datasets, please download them from [CAIDA](https://www.caida.org/), [Criteo](https://ailab.criteo.com/download-criteo-1tb-click-logs-dataset/), [Zipf 1.0](https://drive.google.com/file/d/1-OTs5BYaK6UB26F0xKsOwnA00cjxDt26/view?usp=drive_link), and [Zipf 1.5](https://drive.google.com/file/d/1GfqimNTlG3RnTFClKdcGfS-lKq5dH3ED/view?usp=drive_link).
 
 ## How to run
 
