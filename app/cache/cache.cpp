@@ -90,7 +90,7 @@ void testThroughput() {
 
 std::string folder = "../../dataset/";
 
-std::string file[1] = {"zipf.dat"};
+std::string file[1] = {"zipf_1.0.dat"};
 
 int main(int argc,char* argv[]) {
     datasetPair = read_data_zipf((folder + file[0]).c_str(), 1 << 20, &c);

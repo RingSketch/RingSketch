@@ -62,7 +62,7 @@ int single_hit_test(
 
 std::string folder = "../../dataset/";
 
-std::string file[1] = {"zipf.dat"};
+std::string file[1] = {"zipf_1.0.dat"};
 
 int main(int argc,char* argv[]) {
     srand(233);

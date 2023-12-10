@@ -1,6 +1,6 @@
 # Codes for basic evaluation
 
-This folder contains the differences in performance of RingSketch based on different implementation methods and parameter selections, and compares the freshness estimation performance with existing algorithms.
+This folder contains the codes of testing the impact of RingSketch parameters and the codes of comparing RingSketch with the other algorithms on freshness estimation.
 
 ## File Structures
 

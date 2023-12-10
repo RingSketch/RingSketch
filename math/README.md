@@ -16,11 +16,11 @@ Run the test with the following command:
 $ ./math
 ```
 
-The dataset in use should be specified in `./math.cpp`. For example, we take `../../dataset/zipf.dat` as input.
+The dataset in use should be specified in `./math.cpp`. For example, we take `../../dataset/zipf_1.0.dat` as input.
 
 ```cpp
 std::string folder = "../dataset/";
-std::string file[1] = {"zipf.dat"};
+std::string file[1] = {"zipf_1.0.dat"};
 
 int main(int argc,char* argv[]) {
     dataset = read_data_zipf((folder + file[0]).c_str(), 1 << 22, &datasetLength);

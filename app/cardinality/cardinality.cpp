@@ -49,7 +49,7 @@ void testCardinalEst(int type, const int window_size, int threshold, const int m
 
 std::string folder = "../../dataset/";
 
-std::string file[1] = {"zipf.dat"};
+std::string file[1] = {"zipf_1.0.dat"};
 
 int main(int argc,char* argv[]) {
     srand(233);

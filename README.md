@@ -69,4 +69,4 @@ We provide four small sample datasets extracted from the three datasets in the `
 
 ## How to run
 
-Each subfolder corresponding to an experiment provides instructions on how to run the specific experiment.
+We provide the detailed instructions on how to run the codes for specific experiments in corresponding folders.
