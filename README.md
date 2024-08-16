@@ -1,6 +1,6 @@
-# Real-time Measuring Item Freshness in Data Streams
+# Measuring Item Freshness in Data Streams
 
-This repository contains all related code of our paper "Real-time Measuring Item Freshness in Data Streams".
+This repository contains all related code of our paper "Measuring Item Freshness in Data Streams".
 
 Our codes can automatically reproduce all experimental results in our paper.
 
